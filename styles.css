@@ -1,33 +1,33 @@
 body {
-    margin: 0;
-    background-color: #2d333d;
+  margin: 0;
+  background-color: #2d333d;
 }
 
 h1.f0f {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 img.f0f {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 a.f0f {
-    color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .nav-bar {
-    background: #212a3a;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  background: #212a3a;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 div.nav-bar ul {
@@ -58,12 +58,26 @@ div.nav-bar .active {
 }
 
 .about-description {
-    padding:20px;
-    margin-top:30px;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 div.about-description p {
-    text-align: center;
-    font-size: large;
-    color: white;
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+.dynamic-python-frame {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+div.dynamic-python-frame iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 50px;
 }
