@@ -67,17 +67,3 @@ div.about-description p {
   font-size: large;
   color: white;
 }
-
-.dynamic-python-frame {
-  padding: 20px;
-  margin-top: 30px;
-}
-
-div.dynamic-python-frame iframe {
-  display: block;
-  width: 100%;
-  border: none;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-top: 50px;
-}
